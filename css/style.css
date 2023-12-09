@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.alert-container {
+
+}
+.callout-container {
+    height: 100vh;
+    background: 
+    #313131
+    url("../images/whiskey-glass-image.jpg")
+    center center / cover
+    no-repeat
+    fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+   
+}
+.quotes-container {
+    background-color: white;
+    z-index: 1;
+}
+.features-container {
+
+}
+/*Jumbotron*/
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.callout small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+
+}
+#signuptext {
+    color: white;
+}
+.callout {
+    background-color: transparent;
+}
+.block-divider {
+    width: 75px;
+    height: 5px;
+    margin: auto;
+    margin-bottom: 30px;
+    border: 0;
+    background-color: #ff6a00;
+    opacity: 0.6;
+}
