@@ -18,6 +18,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 
 
    
@@ -47,6 +48,7 @@ body {
 }
 .callout {
     background-color: transparent;
+    position: relative;
 }
 .block-divider {
     width: 75px;
@@ -54,6 +56,40 @@ body {
     margin: auto;
     margin-bottom: 30px;
     border: 0;
+    
+}
+.block-divider--orange {
     background-color: #ff6a00;
     opacity: 0.6;
+}
+.block-divider--short {
+    width: 35px;
+}
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    color: white;
+    background-color: #a73922;
+    border-color: #a73922;
 }
